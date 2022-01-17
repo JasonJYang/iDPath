@@ -1,9 +1,9 @@
 {
-    "name": "Path-LSTM-GCN",
+    "name": "iDPath",
     "n_gpu": 1,
 
     "arch": {
-        "type": "PathLSTM",
+        "type": "iDPath",
         "args": {
             "emb_dim": 64,
             "gcn_layersize": [64, 128, 64],
