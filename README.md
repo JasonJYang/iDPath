@@ -30,7 +30,7 @@ python train.py --config config/config.json
 ```
 * Test. When the training is finished, you will get a file that records the parameters for the best model, remember its location (such as `saved/models/iDPath/0117_164440/model_best.pth`) and use it for testing.
 ```bash
-python test.py --config config/config.json --resume saved/models/Path-LSTM-GCN/0117_164440/model_best.pth
+python test.py --config config/config.json --resume saved/models/iDPath/0117_164440/model_best.pth
 ```
 
 # Dataset
