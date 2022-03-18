@@ -1,5 +1,5 @@
 # iDPath
-This is our PyTorch implementation for the paper:
+This is our PyTorch implementation for the paper (Preprint: https://www.researchsquare.com/article/rs-1269212/v1):
 > Deep Learning Can Identify Explainable Reasoning Paths of Mechanism of Drug Action for Drug Repurposing from Multilayer Biological Network
 
 # Introduction
