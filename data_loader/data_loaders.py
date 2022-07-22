@@ -84,6 +84,7 @@ class PathDataLoader(BaseDataLoader):
         else:
             graph_dataset = Dataset(data_dir=os.path.join(self.data_dir, 'network_raw'))
             graph = graph_dataset.get_network()
+            self.data_dir.joinpath('processed').mkdir(exist_ok=False)
             with self.data_dir.joinpath('processed', 'graph.pkl').open('wb') as f:
                 pickle.dump(graph, f)
 
