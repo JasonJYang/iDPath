@@ -1,0 +1,29 @@
+{
+    "name": "iDPath",
+    "n_gpu": 1,
+
+    "arch": {
+        "type": "iDPath",
+        "args": {
+            "emb_dim": 64,
+            "gcn_layersize": [64, 128, 64],
+            "dropout": 0.5}
+    },
+    "data_loader": {
+        "type": "PathDataLoader",
+        "args":{
+            "data_dir": "data/",
+            "drug_disease_pd_dir": "test.csv",
+            "max_path_length": 8, 
+            "max_path_num": 256,
+            "random_state": 0
+        }
+    },
+
+    "K": 5,
+
+    "trainer": {
+        "save_dir": "saved/",
+        "verbosity": 2
+    }
+}
