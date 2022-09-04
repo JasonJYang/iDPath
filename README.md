@@ -41,7 +41,7 @@ drug_pubchemcid	    disease_icd10
 CID-132971	        ICD10-C61
 ```
 2. Pre-trained model. You can use your own pre-trained model or use our prepared one [`model_best.pth`](https://drive.google.com/file/d/1WeG75vYUbNlP96kc6IHvbAedTRGG57i5/view?usp=sharing) and put the `config.json` and `model_best.pth` to the folder `data/test`.
-3. Run. We provide an argument `K` in the `inference_config.json` to control the output of the number ot top-k critical paths identified by iDPath. Please use the following command to run the inference.
+3. Run. We provide an argument `K` in the `inference_config.json` to control the output of the number of top-k critical paths identified by iDPath. Please use the following command to run the inference.
 ```bash
 python inference.py --resume data/test/model_best.pth --config config/inference_config.json
 ``` 
