@@ -1,6 +1,6 @@
 # iDPath
-This is our PyTorch implementation for the paper (Preprint: https://www.researchsquare.com/article/rs-1269212/v1):
-> Deep Learning Can Identify Explainable Reasoning Paths of Mechanism of Drug Action for Drug Repurposing from Multilayer Biological Network
+This is the PyTorch implementation for our paper published on Briefings in Bioinformatics:
+> [Deep Learning Identifies Explainable Reasoning Paths of Mechanism of Drug Action for Drug Repurposing from Multilayer Biological Network](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac469/6809964?login=true)
 
 # Introduction
 iDPath is an interpretable deep learning-based path-reasoning framework to identify potential drugs for the treatment of diseases, by capturing the mechanism of drug action (MODA) based on simulating the paths from drugs to diseases in the human body.
