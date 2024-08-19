@@ -20,9 +20,9 @@ pip install -r requirements.txt
 ```
 
 2. You may need to download the following files to run iDPath
-* Download the the [shortest paths](https://drive.google.com/file/d/11pHbXWHsRIfPmMBDNXdwVyxn2opP0a4s/view?usp=sharing) between all the targets of drugs and diseases and put two files (`disease_path_dict.pkl` and `drug_path_dict.pkl`) under the folder `data/path`.
-* Download the [processed data](https://drive.google.com/file/d/1UWijysxx4qHtfI4CY5nRo4ew4iGSZhzo/view?usp=sharing) and put these files under the folder `data/processed`.
-* Download the [test data](https://drive.google.com/file/d/1WeG75vYUbNlP96kc6IHvbAedTRGG57i5/view?usp=sharing) and put these files under the folder `data/test`.
+* Download the the [shortest paths](https://drive.google.com/file/d/10Cd-hCCs3xrBbbg9E1psacMrVxS8aGgn/view?usp=sharing) between all the targets of drugs and diseases and put two files (`disease_path_dict.pkl` and `drug_path_dict.pkl`) under the folder `data/path`.
+* Download the [processed data](https://drive.google.com/file/d/1HR6Ok-9-QJ8rD8d4S6xQgoFKlc_pWNbW/view?usp=sharing) and put these files under the folder `data/processed`.
+* Download the [test data](https://drive.google.com/file/d/1G6QUEGo9fcQ7eiUF9bit-6uBjTAwYshV/view?usp=sharing) and put these files under the folder `data/test`.
 
 # Example to Run the Codes
 ## Train 
